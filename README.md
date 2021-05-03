@@ -13,7 +13,7 @@ The commands to prepare the pickle files, to train the model with different loss
 ### Prepare data (train/vali/test) pickle files 
 `python prepare_data_pickles.py PATH_TO_DATA_FOLDER`
 
-e.g. ('python prepare_data_pickles.py ../data/MQ/MQ2007')
+e.g. ('python prepare_data_pickles.py ../data/')
 
 ### Train model by maximizing P@10
 `python train.py --model_dir  ../experiments/ --fold 1 -c smoothi_pk -k 10`
