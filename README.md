@@ -26,3 +26,17 @@ e.g. ('python prepare_data_pickles.py ../data/')
 
 ### Evaluate model
 `python evaluate.py --model_dir ../experiments/ --fold 1`
+
+## Citation
+
+If you use this work, please cite:
+
+```bibtex
+@article{arxiv2021-smoothI,
+  author = {Thonet, Thibaut and Cinar, Yagmur Gizem and Gaussier, Eric and Li, Minghan and Renders, Jean-Michel},
+  title = {SmoothI: Smooth Rank Indicators for Differentiable IR Metrics},
+  year = {2021},
+  journal = {arXiv},
+  volume = {abs/2105.00942}
+}
+```
